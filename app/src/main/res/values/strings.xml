@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dogs</string>
+    <string name="list_fragment_label">List Fragment</string>
+    <string name="details_fragment_label">Detalle Fragment</string>
+    <string name="error_list_message">A ocurrido un error al cargar la lista :(</string>
+    <string name="dog_name_label">Nombre del perro:</string>
+
+
+</resources>
