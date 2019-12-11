@@ -25,8 +25,12 @@ data class DogBreed(
     @SerializedName("temperament") val temperament: String?,
 
     @ColumnInfo(name = "dog_url")
-    @SerializedName("url") val imageUrl: String
+    @SerializedName("url") val imageUrl: String?
 ){
     @PrimaryKey(autoGenerate = true)
     var uuid: Int = 0
 }
+
+data class DogPaltte(
+    var color: Int
+)

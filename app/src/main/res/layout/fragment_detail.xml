@@ -10,12 +10,17 @@
             name="dogDetail"
             type="com.apps.alan.dogs.model.DogBreed" />
 
+        <variable
+            name="palette"
+            type="com.apps.alan.dogs.model.DogPaltte" />
+
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.DetailFragment">
+        tools:context=".ui.DetailFragment"
+        android:background="@{palette.color}">
 
         <ImageView
             android:id="@+id/img_dog"
